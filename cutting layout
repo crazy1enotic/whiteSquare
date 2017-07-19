@@ -1,0 +1,82 @@
+Разбор макета:
+1. Изображения
+	logo.png --> логотип для сайта
+	clients.png --> спрайт клиентов
+	social.png --> спрайт соц. иконок
+		0 --> 32px по X --> social icons (32x32)
+		32 --> 50px по X --> social icons (16x16)
+	bg.png --> background for section item (15x15)
+2. Форматирование текста
+	@header menu {
+		font: Oswald Regular;
+		size: 14px;
+		color: #b2b2b2;
+		text-transform: uppercase;
+		background: #f3f3f3;
+		border: #e7e7e7;
+		active {
+			background: #29c5e6;
+			color: #fff;
+		}
+	}
+	@banner {
+		text-transform: uppercase;
+		background: #e2e2e2;
+		font: Oswald Light;
+		h1 {
+			size: 42.13px;
+			color: #5a5a5a;
+		}
+		h2 {
+			size: 20px;
+			color: #acacac;
+		}
+		menu {
+			size: 18px;
+			color: 8f8f8f;
+			background: #f3f3f3;
+			active {
+				color: #74d2ea;
+			}
+		}
+	}
+	@main{
+		about, services,clients {
+		font: Oswald Regular;
+		h3{
+			size: 14px;
+			color: #7e7e7e;
+			text-transform: uppercase;
+		}
+		p{
+			size: 12px;
+			color: #8f8f8f;
+		}
+		read {
+			size: 12px;
+			color: #525252;
+			text-decoration: underline;
+		}	
+		}
+	}
+
+	@footer {
+		font: Oswald Regular;
+		background: #7e7e7e;
+		h3 {
+			size: 14px;
+			color: #fff;
+			text-transform: uppercase;
+			border-bottom: #919191;
+		}
+		data {
+			size: 11px;
+			color: #b4aeae;
+			text-decoration: underline;
+		}
+		p {
+			size: 11px;
+			color: #dbdbdb;
+		}
+	}
+3. Размеры блока
