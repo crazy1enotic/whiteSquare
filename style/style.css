@@ -1,0 +1,61 @@
+#wrapper {
+	background: url(../images/fon.png);
+}
+.container {
+    width: 960px;
+    margin: 0 auto;   
+}
+ /* GREY LINE */
+#upper,
+#footer {
+    background-color: #7e7e7e;
+}
+#upper {
+	height: 5px;
+}
+/*  HEADER  */
+#header {
+	padding-top: 23px;
+}
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+#top {
+	margin-bottom: 23px;
+}
+#logo {
+	width: 161px;
+	height: 38px;
+	background: url(../images/logo.png) no-repeat;
+	float: left;
+}
+#search {
+	float: right;
+	font-size: 0;
+}
+#search input[type=search]{
+	background-color: #f3f3f3;
+	border: 1px solid #e7e7e7;
+	border-right: none;
+	padding: 9px;
+	font-family: "Tahoma";
+	font-size: 12px;
+	color: #b2b2b2;
+}
+#search button {
+	background-color: #29c5e6;
+	padding: 9px 13px;
+	border: none;
+	outline: none;
+	text-transform: uppercase; 
+	font-family: "Times New Ro";
+	font-size: 14px;
+	color: #fff;
+
+}
+#primary-meny {
+	height: 50px;
+	background-color: red;
+}
